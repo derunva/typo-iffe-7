@@ -148,6 +148,8 @@ h2{
 .header{
   background: green;
   color: #fff;
+  position: relative;
+  z-index: 3;
 }
 .header_fixed{
   position: fixed;
@@ -208,7 +210,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a842c', end
   color: #333;
 }
 .menu{
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background: green;
+  overflow-y: auto;
 }
 .menu a{
   display: block;
